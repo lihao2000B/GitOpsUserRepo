@@ -16,7 +16,7 @@ spec:
       # secretRef: git-secret
       # 自动拉取配置的时间间隔，由于基础设施的变动性较小，此处设置为十分钟
       pullInterval: 10s
-      serviceAccountName: use
+      serviceAccountName: kustomize-controller
       git:
         # 监听变动的分支
         branch: main
